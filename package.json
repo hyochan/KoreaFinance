@@ -1,0 +1,40 @@
+{
+  "name": "daehan-finance",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/core": "0.37.0",
+    "@convex-dev/auth": "^0.0.90",
+    "@phosphor-icons/react": "^2.1.10",
+    "@vercel/analytics": "^1.5.0",
+    "clsx": "^2.1.1",
+    "convex": "^1.31.2",
+    "date-fns": "^4.1.0",
+    "next": "16.1.1",
+    "openai": "^6.15.0",
+    "oslo": "^1.2.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-markdown": "^10.1.0",
+    "resend": "^6.6.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "postcss": "^8",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5"
+  },
+  "packageManager": "bun@1.2.0"
+}
